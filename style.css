@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body { /* //CHANGED FROM * TO BODY BECAUSE RESET OVERIDE THE FONT */
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+.clear{
+	clear: both;
+}
+
+#header{
+	margin: 0;
+	padding: 10px;
+}
+
+#menu{
+	float: left;
+	margin-left: 450px;
+}
+
+#menu ul{
+	list-style: none;
+}
+
+#menu ul li{
+	display: inline-block;
+}
+
+#menu ul li a{
+	text-decoration: none;
+	color: #ffffff;
+	padding: 10px;
+}
+
+#header {
+	height: 60px;
+	width: auto;
+	background-color: #0457B7;
+}
+#logo img{
+	height: 40px;
+	width: auto;
+	margin-right: 10px;
+	margin-left: 80px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 185px;
+    position: fixed;
+    z-index: 1;
+    top: 80px;
+    left: 0;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    padding-top: 20px;
+    padding-right: 13px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #666;
+    display: block;
+    text-align: right;
+}
+
+.featured-image{
+	float: left;
+	width: 20%;
+	margin: 0 4% 0 0;
+
+}
+
+.featured-image.first{
+	margin: 1% 4% 0 20%;
+	border-radius: 10px;
+
+}
+
+
+.featured-image.last{
+	margin: 1% 0 0 0;
+}
+
+.featured-image img{
+	width: 100%;
+	height: auto;
+}
+
+#TopHeader{
+	text-align: left;
+	margin-left: 300px;
+	margin-top: 10px;
+
+}
+
+#Bullets{
+	text-align: left;
+	margin-left: 300px;
+	list-style-type: circle;
+}
